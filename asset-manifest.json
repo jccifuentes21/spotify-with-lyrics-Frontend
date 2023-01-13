@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spotify-with-lyrics-Frontend/static/css/main.c2cab247.css",
+    "main.js": "/spotify-with-lyrics-Frontend/static/js/main.2e358c5c.js",
+    "index.html": "/spotify-with-lyrics-Frontend/index.html",
+    "main.c2cab247.css.map": "/spotify-with-lyrics-Frontend/static/css/main.c2cab247.css.map",
+    "main.2e358c5c.js.map": "/spotify-with-lyrics-Frontend/static/js/main.2e358c5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.2e358c5c.js"
+  ]
+}
