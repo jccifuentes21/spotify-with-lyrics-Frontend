@@ -9,7 +9,7 @@ const useAuth = (code, state) => {
   useEffect(() => {
     const controller = new AbortController();
     axios
-      .post("http://localhost:3001/login", {
+      .post("https://spotify-plus-lyrics.herokuapp.com/login", {
         code,
         state,
       })
@@ -34,7 +34,7 @@ const useAuth = (code, state) => {
 
     const interval = setInterval(() => {
       axios
-        .post("http://localhost:3001/refresh", {
+        .post("https://spotify-plus-lyrics.herokuapp.com/refresh", {
           refreshToken,
         })
         .then((res) => {
